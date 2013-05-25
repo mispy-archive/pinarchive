@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'pinarchive'
+
+archiver = Pinarchive.new
+
+if ARGV.length < 1
+  archiver.wrong_syntax
+else
+  archiver.archive_url(ARGV[0], ARGV[1])
+end
