@@ -1,3 +1,7 @@
+## No Longer Works
+
+Sadly, Pinterest seems to have changed their pagination style to be JS-exclusive. Another archiving tool is http://www.downloadmyboard.com/. I suggest you use a service which more inherently supports freedom of user data, such as [Dropbox](http://dropbox.com/).
+
 ## Installation
 
 ```gem install pinarchive```
